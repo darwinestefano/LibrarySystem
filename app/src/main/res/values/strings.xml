@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Library System</string>
+    <string name="save">SAVE</string>
+    <string name="logo">Logo</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="genre">Genre</string>
+    <string name="quantity">Quantity</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="remove">REMOVE</string>
+    <string name="update">UPDATE</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="addBook"> ADD NEW BOOK</string>
+    <string name="listBooks"> LIST OF BOOKS</string>
+    <string name="listUsers"> LIST OF USERS</string>
+    <string name="addUser"> ADD NEW USER</string>
+    <string name="menu"> MENU </string>
+    <string name="loan"> LOAN </string>
+    <string name="selectUser">PLEASE, SELECT USER</string>
+    <string name="booksLoaned">BOOKS LOANED</string>
+    <string name="returnBook">RETURN</string>
+</resources>

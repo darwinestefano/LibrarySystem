@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_library"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#cccccc"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/loan_btn"
+        android:layout_width="142dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/buttons"
+        android:layout_marginStart="30dp"
+        android:src ="@drawable/loan_btn"
+        android:padding="48dp" />
+
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:layout_width="142dp"
+        android:background="@drawable/buttons"
+        android:layout_height="124dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/loan_btn"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="30dp"
+        android:src ="@drawable/search_btn"
+        android:padding="43dp"/>
+
+    <ImageButton
+        android:id="@+id/add_btn"
+        android:layout_width="142dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@+id/loan_btn"
+        android:background="@drawable/buttons"
+        android:layout_marginStart="40dp"
+        android:src ="@drawable/add_btn"
+        android:padding="43dp"
+        android:layout_toEndOf="@+id/search_btn" />
+
+    <ImageButton
+        android:id="@+id/user_lst_btn"
+        android:layout_width="142dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/search_btn"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttons"
+        android:layout_marginStart="30dp"
+        android:src ="@drawable/update_btn"
+        android:padding="43dp"/>
+
+    <ImageButton
+        android:id="@+id/addUser_btn"
+        android:layout_width="142dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/user_lst_btn"
+        android:layout_below="@+id/add_btn"
+        android:background="@drawable/buttons"
+        android:layout_marginStart="40dp"
+        android:src ="@drawable/remove_btn"
+        android:padding="43dp"
+        android:layout_toEndOf="@+id/user_lst_btn" />
+
+</RelativeLayout>

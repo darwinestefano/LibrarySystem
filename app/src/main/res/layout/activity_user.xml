@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_library"
+    tools:context=".AddUserActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addUser"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#cccccc"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/firstName_input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/content_form"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/firstName"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/lastName_input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/firstName_input"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints="no"
+        android:background="@drawable/content_form"
+        android:hint="@string/lastName"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/phone_input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/lastName_input"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/content_form"
+        android:hint="@string/phone"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/phone_input"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints="no"
+        android:background="@drawable/content_form"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textSize="12sp" />
+
+    <Button
+        android:layout_below="@+id/email_input"
+        android:id="@+id/save_user_btn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/buttons"
+        android:onClick="saveUser"
+        android:padding="10dp"
+        android:text="@string/save"
+        android:textSize="12sp" />
+
+</RelativeLayout>
